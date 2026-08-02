@@ -3,9 +3,9 @@
 # from hPanel > Advanced > Node.js > your app, then replace the
 # placeholders below. Do not guess the username/domain/node version.
 
-PassengerAppRoot "/home/REPLACE_WITH_USERNAME/domains/REPLACE_WITH_YOURDOMAIN.com/public_html"
+PassengerAppRoot "/home/u885540153/domains/anantameridian.com/public_html"
 PassengerBaseURI "/"
-PassengerNodejs "/home/REPLACE_WITH_USERNAME/nodevenv/domains/REPLACE_WITH_YOURDOMAIN.com/public_html/20/bin/node"
+PassengerNodejs "/home/u885540153/nodevenv/domains/anantameridian.com/public_html/20/bin/node"
 PassengerAppType node
 PassengerStartupFile server.js
 PassengerAppEnv production
