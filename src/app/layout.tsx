@@ -75,7 +75,7 @@ const organizationSchema = {
   foundingDate: String(SITE.established),
   url: SITE.url,
   email: SITE.email,
-  telephone: SITE.phone,
+  telephone: SITE.phone1,
   description: SITE.description,
   address: {
     '@type': 'PostalAddress',
