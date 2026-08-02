@@ -1,0 +1,11 @@
+# Hostinger Node.js (Passenger) app configuration.
+# These paths are specific to YOUR hPanel account — copy the exact values
+# from hPanel > Advanced > Node.js > your app, then replace the
+# placeholders below. Do not guess the username/domain/node version.
+
+PassengerAppRoot "/home/REPLACE_WITH_USERNAME/domains/REPLACE_WITH_YOURDOMAIN.com/public_html"
+PassengerBaseURI "/"
+PassengerNodejs "/home/REPLACE_WITH_USERNAME/nodevenv/domains/REPLACE_WITH_YOURDOMAIN.com/public_html/20/bin/node"
+PassengerAppType node
+PassengerStartupFile server.js
+PassengerAppEnv production
